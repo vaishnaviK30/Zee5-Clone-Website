@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZEE5 - Watch TV Shows,100+ Movies</title>
+    <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-icon">
+     <link rel="stylesheet" href="./zee.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+<body>
+  <header class="header">
+                   <!-------- Navbar --------> 
+            
+              <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="data:image/png;base64,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" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link a" href="https://www.zee5.com/">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://www.zee5.com/tv-shows">TV Shows</a>
+                      </li>
+                      
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://www.zee5.com/movies">Movies</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://www.zee5.com/web-series">Web Series</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://www.zee5.com/news">News</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://www.zee5.com/eduauraa">Eduauraa</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://www.zee5.com/premium">Premium</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://www.zee5.com/live-tv">Live TV</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://www.zee5.com/music-videos">Music</a>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <i class="fa-solid fa-list"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Rents</a></li>
+                          <li><a class="dropdown-item" href="#">Kids</a></li>
+                          <li><a class="dropdown-item" href="#">Videos</a></li>
+                          <li><a class="dropdown-item" href="#">Channels</a></li>
+                          <li><a class="dropdown-item" href="#">Cricket</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <b><button class="btn1"><a href="https://www.zee5.com/myaccount/subscription"><i class="fa-solid fa-crown">BUY PLAN</i></a></button></b>
+                        <button class="btn2"><a href="https://www.zee5.com/signin">LOGIN</a></button>
+                        <i class="fa-solid fa-bars"></i>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            
+
+               <!--------- Carousel --------->
+                <center>
+               <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                   <div class="carousel-item active">
+                    <img src="https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-6-3348/cover/1920x770020a93985fcd4d3bbb5cbff4d1d8fc45.jpg" height="470px" >
+                    <p class="parograph">Shows</p>
+                    <button class="btn3"><a href="https://www.zee5.com/web-series/details/pitchers/0-6-3348"><i class="fa-light fa-play">Watch</i></a></button>
+                    <b><button class="btn4"><a href="https://www.zee5.com/myaccount/subscription"><i class="fa-solid fa-crown">BUY PLAN</i></a></button></b>
+                  </div>
+              
+                  <div class="carousel-item ">
+                    <img src="https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-6-4z5194280/cover/1920x7701c24d0855c4f4b639a991fa1965b7010.jpg" height="470px">
+                    <p class="parograph">Pitchers</p>
+                    <button class="btn3"><a href="https://www.zee5.com/web-series/details/pitchers/0-6-3348"><i class="fa-light fa-play">Watch</i></a></button>
+                    <b><button class="btn4"><a href="https://www.zee5.com/myaccount/subscription"><i class="fa-solid fa-crown">BUY PLAN</i></a></button></b>
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-6-3392/cover/1920x770d16c9ab94d114e2b99b980baf047c9c9.jpg" height="470px" >
+                    <p class="parograph">Bhagya Laxmi</p>
+                    <button class="btn3"><a href="https://www.zee5.com/web-series/details/pitchers/0-6-3348"><i class="fa-light fa-play">Watch</i></a></button>    
+                  </div>
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </center>
+
+               <!-- <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                 <center> <div class="carousel-item active">
+                    <img src="https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-6-4z5194280/cover/1920x7701c24d0855c4f4b639a991fa1965b7010.jpg" height="470px" >
+                    <p class="parograph">Shows</p>
+                    <button class="btn3"><a href="https://www.zee5.com/web-series/details/pitchers/0-6-3348"><i class="fa-light fa-play">Watch</i></a></button>
+                    <b><button class="btn4"><a href="https://www.zee5.com/myaccount/subscription"><i class="fa-solid fa-crown">BUY PLAN</i></a></button></b>
+                  </div>
+                  <div class="carousel-item ">
+                    <img src="https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-6-3348/cover/1920x770020a93985fcd4d3bbb5cbff4d1d8fc45.jpg" height="470px">
+                    <p class="parograph">Pitchers</p>
+                    <button class="btn3"><a href="https://www.zee5.com/web-series/details/pitchers/0-6-3348"><i class="fa-light fa-play">Watch</i></a></button>
+                    <b><button class="btn4"><a href="https://www.zee5.com/myaccount/subscription"><i class="fa-solid fa-crown">BUY PLAN</i></a></button></b>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-6-3392/cover/1920x770d16c9ab94d114e2b99b980baf047c9c9.jpg" height="470px" >
+                    <p class="parograph">Bhagya Laxmi</p>
+                    <button class="btn3"><a href="https://www.zee5.com/web-series/details/pitchers/0-6-3348"><i class="fa-light fa-play">Watch</i></a></button>    
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-0-1z5250012/cover/1920x770cd2bb766d9864e6e9516bfe80dadcd83.jpg" height="470px" >
+                    <p class="parograph">India Lockdown</p>
+                    <button class="btn3"><a href="https://www.zee5.com/web-series/details/pitchers/0-6-3348"><i class="fa-light fa-play">Watch</i></a></button>
+                    <b><button class="btn4"><a href="https://www.zee5.com/myaccount/subscription"><i class="fa-solid fa-crown">BUY PLAN</i></a></button></b>
+                        
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </center> -->
+
+
+
+              <!---------- Cards ---------->
+              
+              <p class="para">Trending Near You</p>
+              <section class="cardsec">
+                <div class="card" style="width: 10rem;">
+                 <a href="https://www.zee5.com/movies/details/india-lockdown/0-0-1z5250012"><img src="https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5250012/portrait/1920x770cd2bb766d9864e6e9516bfe80dadcd83.jpg" class="card-img-top" alt="..." height="200px" width="20px">
+                  </a>
+                </div>
+
+                <div class="card" style="width: 10rem;">
+                  <a href="https://www.zee5.com/movies/details/blurr/0-0-1z5259649"><img src="https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5259649/portrait/1920x770c85c702415cb46fdbc2b704334a1222dbbbea06f09544107aae2e3dc55b58b3e.jpg" class="card-img-top" alt="..." height="200px" width="20px">
+                  </a>
+                  </div>
+
+                <div class="card" style="width: 10rem;">
+                  <a href="https://www.zee5.com/movies/details/raksha-bandhan/0-0-1z5228525"><img src="https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5228525/portrait/1920x77069dfde7f955d4ef69e73c3b682aa636b.jpg" class="card-img-top" height="200px" width="150px">
+                  </a>
+                  </div>
+
+                <div class="card" style="width: 10rem;">
+                  <a href="https://www.zee5.com/movies/details/uunchai/0-0-1z5277822"><img src="https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5277822/portrait/1920x77070e92fd992214ef49227b45dbb24f099.jpg" class="card-img-top" height="200px" width="150px">
+                  </a>
+                  </div>    
+
+                <div class="card" style="width: 10rem;">
+                  <a href="https://www.zee5.com/movies/details/rocket-gang/0-0-1z5277649"><img src="https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5277649/portrait/1920x770dd21dbf7241f4492a8c6313c2d727f6b.jpg" class="card-img-top" alt="..." height="200px" width="20px">
+                  </a>
+                  </div>
+
+                <div class="card" style="width: 10rem;">
+                   <a href="https://www.zee5.com/movies/details/har-har-mahadev/0-0-1z5264082"> <img src="https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5264082/portrait/1920x77013997b45a7b54db3852c885ad51bf387.jpg" class="card-img-top" alt="..." height="200px" width="20px">
+                   </a>
+                  </div>
+
+                <div class="card" style="width: 10rem;">
+                    <a href="https://www.zee5.com/movies/details/chup-revenge-of-the-artist/0-0-1z5254708"><img src="https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5254708/portrait/1920x77092d392f961aa486baa36547cf1b2c90f.jpg" class="card-img-top" alt="..." height="200px" width="20px">
+                    </a>
+                </div>
+
+                <div class="card" style="width: 10rem;">
+                  <img src="https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5273894/portrait/1920X77090ad96412d4447f8b0cae34b5d652b0a.jpg" class="card-img-top" alt="..." height="200px" width="20px">
+                </div>
+
+                <div class="card" style="width: 10rem;">
+                  <img src="https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5273898/portrait/1920x770ce9edf60138049bf9863cf7ee1434562.jpg" class="card-img-top" height="200px" width="150px">
+                </div>    
+
+              </section>
+            
+
+              <p class="para2">Top 10 Movies In India</p>
+              <section class="cardsec1">
+                <div class="card" style="width: 10rem;">
+                  <img src="https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5273932/portrait/1920x7709b803e17a9c84304bf40c2e0e5f74034.jpg" class="card-img-top" alt="..." height="200px" width="20px">
+                </div>
+
+                <div class="card" style="width: 10rem;">
+                  <img src="https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5262283/portrait/1920x77014698001a08243958f7889a0fd8dc2c0.jpg" alt="" class="card-img-top" height="200px" width="150px">
+                </div>
+
+                <div class="card" style="width: 10rem;">
+                  <img src="https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5273894/portrait/1920X77090ad96412d4447f8b0cae34b5d652b0a.jpg" class="card-img-top" alt="..." height="200px" width="20px">
+                </div>
+
+                <div class="card" style="width: 10rem;">
+                  <img src="https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5273898/portrait/1920x770ce9edf60138049bf9863cf7ee1434562.jpg" class="card-img-top" height="200px" width="150px">
+                </div>    
+
+                <div class="card" style="width: 10rem;">
+                  <img src="https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5266008/portrait/1920x7706be7babaa55a4902b3dc05d980e4d74a.jpg" class="card-img-top" alt="..." height="200px" width="20px">
+                </div>
+
+                <div class="card" style="width: 10rem;">
+                    <img src="https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5259649/portrait/1920x770f426ce27b91e474083e9131fe0128994.jpg" class="card-img-top" alt="..." height="200px" width="20px">
+                </div>
+
+                <div class="card" style="width: 10rem;">
+                    <img src="https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5250012/portrait/1920x770cd2bb766d9864e6e9516bfe80dadcd83.jpg" class="card-img-top" alt="..." height="200px" width="20px">
+                </div>
+
+                <div class="card" style="width: 10rem;">
+                  <a href="https://www.zee5.com/movies/details/raksha-bandhan/0-0-1z5228525"><img src="https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5228525/portrait/1920x77069dfde7f955d4ef69e73c3b682aa636b.jpg" class="card-img-top" height="200px" width="150px">
+                  </a>
+                  </div>
+
+                <div class="card" style="width: 10rem;">
+                  <a href="https://www.zee5.com/movies/details/uunchai/0-0-1z5277822"><img src="https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5277822/portrait/1920x77070e92fd992214ef49227b45dbb24f099.jpg" class="card-img-top" height="200px" width="150px">
+                  </a>
+                  </div>    
+
+              </section>
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+              <br><br><br><br>
+
+              <!---- Iframe Structure-->
+              <p class="paragraph2">English shoows You can't miss</p>
+              <iframe width="350" height="280" src="https://www.youtube.com/embed/nCSx2BWGBNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="350" height="280" src="https://www.youtube.com/embed/fEU4JQwe_YY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+              <br><br>
+              <b></b>
+              <!----- Table Section -->
+              <header class="table">
+                <table>
+                  <tr>
+                    <th> <td> Download Apps <a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAAYCAMAAAD3RZI3AAAA2FBMVEX///9ChfT7vAQ0qFPqQzX6/P9KT1XX19laX2RucnaUlplhZWpNUlhYXGKho6ZGS1G+v8H29ve2uLrk5OU0qU7v8PDLzM7c3d6oqqz7uAB+gYWMjpH8wABSV101iPtmam/4pxI9Q0rZ7d7S6tYWoUGk1LBGrGxArFzC4sk6hes0pl1btnJ+w47z+vU1pWNDpTv2xT//8tQ2pG5Tqkv8z2b/+er925H8yU1epHBje9pwd8/vPyL+57d5dMfpOCr60pfpKxTwi4TtamH74+HrUEP4ysb1sa3vgHlKyJUPAAACzElEQVRIid2U23LbIBCGsR0jECCEZJACwapT95Ce2/ScVk3TtHn/NyogybZkx0lvkpnueKyVYPdj+RcACHb8EtyDPZwtZ4/ugft4Npksnzy9a+z05JkDT5bPj++YO2/Ak+WLO5V5Ohq14Nlyp8xRmWTFDUlk3nsVuXTmvVzu4Y5OXgXwZDnZkjki0Ju+Nj6YWYheEKcQ8koBQMk+7go8ef3mbW80hTbLZREv0r3cGPa51GRZyagCCO/ljkbvAvh0fHj4/sN6MIekKTS/JvoaLszcv7T4Zm4An469HX5cDRoa7Qfu4wJsW67YEdJxHbjBOvCndkyganOqNMxq32IiRlZHwWEsSXTgSm1Z3OMyErgJsyQFGfaRGVZD7vzz0bgDt1stofGP0njLJaMmRlwBQahJEE+BqNwXxpDnSmvjxOqGS5OiiDTNPNdwXWKYSe5zITSsd/7l4MHRkEtDHgMpZTSKXZ8A6SIT6rpMEAYSmHoZieO6n9sAw0P/Rda6M8ATEOqNgASYOM0kULAccOdfzw468FrginVeBgsSNr2EOSbNl9aJfb2A4DzmrJRNvbFSyruOKwzk1iUqHFNT2ecGbAM+3DhKJe3Wt+oRt4Cq6lYSviQscBFfadfq23CxzSKFXQGYSBr3+2r+PWAdeDz+ttlKhDYZ4tViMQXG+mOlqTDUO1Wo11hPLba4IujqRAGp1XR98U03sXX9A/RMEojLtCS+wQqKUqXdAvLGSVqHeX1FTiul9EJt1UtY6splAa7BJrfD1uc/t06aSJhrERTyKMR52PiIcO6wjYM1Cvek91tZokXHtRUoCF8YY4Nqap14usKeX/waUoPlRb52xdDJgSbD0WGCNh5vXtbTFltf/t4ZtM8i5E8WNbecvdr9wA3Yuv7zz1SHZDSOEb3h8u5M9y/Ti/qgPtsW9nbg7ua8zVxd9t7F1eXVbmH/O/sLVP87cU6c0m0AAAAASUVORK5CYII=" alt=""></a></td></th>
+                  </tr>
+                  <tr><br></tr>
+                </table>
+                <table width="100%">
+                  <tr>
+                  <th>Popular TV Shows</th>
+                  <th>Premium Movies</th>
+                  <th>Popular Live TV Channels</th>
+                  <th>Popular Web Series</th>
+                  <th>Bollywood Top Celebrities</th>
+                  <th>Games and News</th>
+                  </tr>
+                  <tr>
+                    <td>Kumkum Bhagya</td>
+                    <td>Kya Meri Sonam Gupta Bewfa Hai?</td>
+                    <td>Aaj Tak</td>
+                    <td>Sunflower</td>
+                    <td>Sunny Leone</td>
+                    <td>Play</td>
+                  </tr>
+                  <tr>
+                    <td>Kundali Bhagya</td>
+                    <td>Helmet</td>
+                    <td>Zee News</td>
+                    <td>Jeet ki Zid</td>
+                    <td>Disha Patani</td>
+                    <td>Stories</td>
+                  </tr>
+                  <tr>
+                    <td>Bhagya Laxmi</td>
+                    <td>200 Halla Ho</td>
+                    <td>Zee TV HD</td>
+                    <td>Biccho Ka Khel</td>
+                    <td>Dipika Padukon</td>
+                    <td>Articles</td>
+                  </tr>
+                  <tr>
+                    <td>Tuzhse Hai Rabta</td>
+                    <td>14 Phere</td>
+                    <td>&TV HD</td>
+                    <td>State if Seige:26/11</td>
+                    <td>SAlman Khan</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Kyu Rishton Mein Katti Batti</td>
+                    <td>Dial 100</td>
+                    <td>Zee Marathi HD</td>
+                    <td>Nexalbari</td>
+                    <td>Nora Fatehi</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>Tripling</td>
+                    <td></td>
+                  </tr>
+                </table>
+              </header>
+      
+  </header>    
+</body>
+</html>

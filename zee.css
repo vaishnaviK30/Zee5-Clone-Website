@@ -1,0 +1,133 @@
+
+body .header{
+    background-color: rgb(7, 7, 37);
+}
+.header iframe{
+    position:relative;
+    left: 30px;
+}
+.navbar-brand img{
+    height: 43px;
+    width: 45px;
+    position: relative;
+    left: 10px;
+    top: -5px;
+}
+.container-fluid{
+    background-color: black;
+    position: sticky;
+    top: 0;
+
+}
+.paragraph2{
+    position: relative;
+    color: white;
+    left: 20px;
+}
+.container-fluid,.nav-item a{
+    color:aliceblue;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+form .btn1{
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    padding: 3px 20px;
+    font-size: 9px;
+}
+form .btn2{
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    padding: -1px 20px;
+    font-size: 9px;
+}
+form .btn{
+    font-size: 10px;
+    padding: -1000px 50px;
+}
+form .form-control{
+    font-size: 10px;
+}
+.btn3,.btn4{
+   position: relative;
+   top: -80px;
+   color: white;
+   left: -500px;
+   border-radius: 4px;
+   font-size: 12px;
+}
+.btn3{
+    background-color: transparent;
+    color: white;
+}
+.parograph{
+    position: relative;
+    left: -540px;
+    color: white;
+    top: -70px;
+}
+.btn4{
+    background-color:blueviolet;
+    font-size: 10px;
+    padding: 3px;
+}
+.cardsec{
+  position: relative;
+  top: 20px;
+  left: 105px;
+  padding: -10px;
+}
+.cardsec , .card img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: -20px 50px;
+    
+}
+.para{
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 35px;
+}
+.cardsec , .card img:hover{
+    transform: scale(1.1);
+}
+.para2{
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 35px;
+}
+.cardsec1{
+    position: relative;
+    top: 50px;
+    left: 105px;
+    padding: -10px;
+}
+
+.cardsec1 , .card img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: -20px 50px; 
+}
+.cardsec1 , .card img:hover{
+    transform: scale(1.1);
+    line-height: 10px;  
+}
+
+header .table{
+    color: white;
+    font-size: 12px;
+    font-style:bold;
+}
+
+.carousel-inner img{
+    position: relative;
+    top:-50%;
+}
